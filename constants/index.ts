@@ -1,4 +1,5 @@
 import { SidebarLink } from '@/types';
+import { Tags } from 'lucide-react';
 
 export const themes = [
   { value: 'light', label: 'Light', icon: '/assets/icons/sun.svg' },
