@@ -3,19 +3,19 @@ import Link from 'next/link';
 import RenderTag from './RenderTag';
 
 const hotQuestions = [
-  { _id: 1, title: 'How do I use express as a custom server in NextJS?' },
-  { _id: 2, title: 'Can I get the course for free?' },
-  { _id: 3, title: 'Redux Toolkit Not Updating State as Expected' },
-  { _id: 4, title: 'Async/Await Function Not Handling Errors Properly' },
-  { _id: 5, title: 'Cascading Deletes in SQLAlchemy' },
+  { _id: '1', title: 'How do I use express as a custom server in NextJS?' },
+  { _id: '2', title: 'Can I get the course for free?' },
+  { _id: '3', title: 'Redux Toolkit Not Updating State as Expected' },
+  { _id: '4', title: 'Async/Await Function Not Handling Errors Properly' },
+  { _id: '5', title: 'Cascading Deletes in SQLAlchemy' },
 ];
 
 const popularTags = [
-  { _id: 1, name: 'javascript', totalQuestions: 5 },
-  { _id: 2, name: 'react', totalQuestions: 5 },
-  { _id: 3, name: 'next', totalQuestions: 8 },
-  { _id: 4, name: 'vue', totalQuestions: 2 },
-  { _id: 5, name: 'redux', totalQuestions: 6 },
+  { _id: '1', name: 'javascript', totalQuestions: 5 },
+  { _id: '2', name: 'react', totalQuestions: 5 },
+  { _id: '3', name: 'next', totalQuestions: 8 },
+  { _id: '4', name: 'vue', totalQuestions: 2 },
+  { _id: '5', name: 'redux', totalQuestions: 6 },
 ];
 const RightSidebar = () => {
   return (
