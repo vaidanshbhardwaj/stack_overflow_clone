@@ -4,9 +4,8 @@ import { auth } from '@clerk/nextjs';
 import { redirect } from 'next/navigation';
 
 const AskQuestion = async () => {
-  // const { userId } = auth();
+  const { userId } = auth();
 
-  const userId = 'CL12345';
   if (!userId) redirect('sign-in');
 
   const mongoUser = await getUserById({ userId });
