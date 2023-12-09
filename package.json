@@ -15,7 +15,8 @@
     "next": "latest",
     "prettier": "^3.0.3",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "latest",
