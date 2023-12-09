@@ -16,7 +16,8 @@
     "prettier": "^3.0.3",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-typography": "^3.1.0"
   },
   "devDependencies": {
     "@types/node": "latest",
