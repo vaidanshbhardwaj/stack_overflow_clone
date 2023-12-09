@@ -53,7 +53,7 @@ const QuestionCard = ({
       </div>
       <div className="flex-between mt-6 w-full flex-wrap gap-3">
         <Metric
-          imgUrl="/assets/icons/avatar.svg"
+          imgUrl={author.picture}
           alt="user"
           value={author.name}
           title={` - asked ${getTimestamp(createdAt)}`}
@@ -69,7 +69,7 @@ const QuestionCard = ({
           textStyles="small-medium text-dark400_light800"
         />
         <Metric
-          imgUrl="/assets/icons/message.svg"
+          imgUrl={'/assets/icons/message.svg'}
           alt="message"
           value={formatNumberWithExtension(answers.length)}
           title="Answers"
